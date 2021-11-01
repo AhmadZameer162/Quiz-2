@@ -8,9 +8,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  h1{
-      
-  }
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: whitesmoke;
@@ -22,7 +19,7 @@ body {
     position: absolute;
     width: 240px;
     height: 100%;
-    min-height: 1100px;
+    min-height: 1200px;
     color: #fff;
   }
   .profile .prof {
@@ -30,7 +27,7 @@ body {
     width: 150px;
   }
   .profile .name {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
@@ -41,8 +38,74 @@ body {
     text-align: center;
     color: #fff;
   }
-  .general-container .container-block{
-      
+  .profile .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .profile .contact-list li {
+    margin-bottom: 15px;
+  }
+  .profile .contact-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .profile .container-block {
+    padding: 15px;
+  }
+  .profile .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .profile .degree {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .profile .education-container .item {
+    margin-bottom: 15px;
+  }
+  .profile .education-container .item:last-child {
+    margin-bottom: 0;
+  }
+  .profile .education-container .meta {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 14px;
+  }
+  .profile .education-container .time {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .profile.languages-container .lang-desc {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .profile .languages-list {
+    margin-bottom: 0;
+  }
+  .profile .languages-list li {
+    margin-bottom: 5px;
+  }
+  .profile .languages-list li:last-child {
+    margin-bottom: 0;
+  }
+  .profile .interests-list {
+    margin-bottom: 0;
+  }
+  .profile .interests-list li {
+    margin-bottom: 5px;
+  }
+  .profile .interests-list li:last-child {
+    margin-bottom: 0;
   }
   .main-wrapper {
     background: #fff;
